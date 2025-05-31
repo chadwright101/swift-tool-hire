@@ -31,8 +31,7 @@ export function MobileHeader({ isScrolled }: HeaderProps) {
         className={classNames(
           "flex w-full items-center justify-between ease-in-out duration-300",
           {
-            "translate-y-3 phone:translate-y-[18px] min-[540px]:translate-y-6 tablet:translate-y-[42px] min-[1000px]:translate-y-[50px]":
-              isScrolled,
+            "translate-y-3.5": isScrolled,
           }
         )}
       >

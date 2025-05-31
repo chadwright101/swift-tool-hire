@@ -32,14 +32,6 @@
   --gap-15: 60px;
 }
 
-/*
-  The default border color has changed to `currentcolor` in Tailwind CSS v4,
-  so we've added these compatibility styles to make sure everything still
-  looks the same as it did with Tailwind CSS v3.
-
-  If we ever want to remove these styles, we need to add an explicit border
-  color utility to any element that depends on these defaults.
-*/
 @layer base {
 
   *,
@@ -51,36 +43,43 @@
   }
 }
 
-html {
-  scroll-behavior: smooth;
-}
+@layer components {
 
-* {
-  color: #202020;
-  font-family: 'Noto Sans', Arial, sans-serif;
-}
+  html {
+    scroll-behavior: smooth;
+  }
 
-h1,
-h2 {
-  @apply text-heading;
-  font-variant: small-caps;
-}
+  * {
+    color: #202020;
+    font-family: 'Noto Sans', Arial, sans-serif;
+  }
 
-h3,
-h4,
-h5,
-h6 {
-  @apply text-subheading;
-  font-variant: small-caps;
-}
+  h1,
+  h2 {
+    @apply text-heading;
+    font-variant: small-caps;
+  }
 
-p {
-  @apply text-paragraph;
-}
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-subheading;
+    font-variant: small-caps;
+  }
 
-input,
-textarea {
-  @apply text-black font-thin;
+  p {
+    @apply text-paragraph;
+  }
+
+  input,
+  textarea {
+    @apply text-black font-thin;
+  }
+
+  a {
+    @apply hover:desktop:text-link-blue ease-in-out duration-300;
+  }
 }
 
 spinner {

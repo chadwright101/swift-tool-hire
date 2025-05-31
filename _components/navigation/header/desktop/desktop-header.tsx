@@ -7,13 +7,13 @@ import { HeaderProps } from "@/_types/general-types";
 
 export function DesktopHeader({ isScrolled }: HeaderProps) {
   return (
-    <div className="hidden h-[88px] pb-4 pl-[52px] pr-10 desktop:grid ease-in-out duration-300 overflow-hidden desktop:duration-300">
+    <div className="hidden h-[88px] pb-4 px-[52px] desktop:grid ease-in-out duration-300 overflow-hidden desktop:duration-300">
       <Link
         href="/"
         className={classNames(
-          "fixed w-[150px] h-[138px] grid place-items-center rounded-full bg-white/90 hover:opacity-90 ease-in-out duration-300 delay-200",
+          "fixed w-[150px] h-[138px] grid place-items-center rounded-full bg-white/90 hover:opacity-90 ease-in-out duration-300 delay-100",
           {
-            "scale-40 -top-7.5": isScrolled,
+            "scale-40 -top-7.5 -ml-[52px]": isScrolled,
             "top-4": !isScrolled,
           }
         )}
@@ -38,7 +38,7 @@ export function DesktopHeader({ isScrolled }: HeaderProps) {
               <li key={id}>
                 <Link
                   href={url}
-                  className="text-paragraph ease-in-out duration-200 hover:text-blue"
+                  className="text-paragraph hover:text-dark-green ease-in-out duration-300"
                 >
                   {title}
                 </Link>

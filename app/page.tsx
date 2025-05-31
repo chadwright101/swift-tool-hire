@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div>
+    <div className="max-w-[1280px] px-7 mx-auto desktop:px-10">
       <h1>Heading</h1>
       <h3>Subheading</h3>
       <p>
