@@ -1,6 +1,54 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@theme {
+  --color-*: initial;
+  --color-black: #231f20;
+  --color-white: #fcfcfc;
+  --color-light-green: #a6ce39;
+  --color-dark-green: #134b23;
+  --color-link-blue: #0000ff;
+  --color-transparent: transparent;
+
+  --text-*: initial;
+  --text-paragraph: 1rem;
+  --text-paragraph--letter-spacing: 0.02rem;
+  --text-paragraph--font-weight: 300;
+  --text-subheading: 1.25rem;
+  --text-subheading--letter-spacing: 0.025rem;
+  --text-subheading--font-weight: 600;
+  --text-heading: 2.25rem;
+  --text-heading--letter-spacing: 0.045rem;
+  --text-heading--font-weight: 500;
+
+  --breakpoint-*: initial;
+  --breakpoint-phone: 425px;
+  --breakpoint-tablet: 800px;
+  --breakpoint-desktop: 1280px;
+
+  --margin-15: 60px;
+
+  --padding-15: 60px;
+
+  --gap-15: 60px;
+}
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+}
 
 html {
   scroll-behavior: smooth;
@@ -138,7 +186,7 @@ spinner {
 
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
-  @apply bg-lightGreen/80;
+  @apply bg-light-green/80;
 }
 
 .swiper-button-next:hover:after,
