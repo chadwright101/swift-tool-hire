@@ -2,38 +2,33 @@ import Image from "next/image";
 import Link from "next/link";
 
 import navData from "@/_data/nav-data.json";
-import { HeaderProps } from "../mobile/mobile-header";
 import classNames from "classnames";
+import { HeaderProps } from "@/_types/general-types";
 
 export function DesktopHeader({ isScrolled }: HeaderProps) {
   return (
-    <div
-      className={classNames(
-        "hidden relative pt-5 pb-[76px] px-15 items-end justify-between desktop:flex ease-in-out duration-300 overflow-hidden desktop:duration-500",
-        {
-          "translate-y-[60px]": isScrolled,
-        }
-      )}
-    >
+    <div className="hidden h-[88px] pb-4 pl-[52px] pr-10 desktop:grid ease-in-out duration-300 overflow-hidden desktop:duration-300">
       <Link
         href="/"
-        className="flex gap-1 items-center hover:opacity-90 ease-in-out duration-500"
+        className={classNames(
+          "fixed w-[150px] h-[138px] grid place-items-center rounded-full bg-white/90 hover:opacity-90 ease-in-out duration-300 delay-200",
+          {
+            "scale-40 -top-7.5": isScrolled,
+            "top-4": !isScrolled,
+          }
+        )}
       >
         <Image
           src="/logo/swift-tool-hire-logo.png"
-          alt="Arlene's Pool Services"
-          width={52.12}
-          height={48}
+          alt="Swift Tool Hire"
+          width={110}
+          height={118}
           priority
-          className="ease-in-out duration-300 h-12 w-auto"
+          className="ease-in-out duration-300 h-[118px] w-auto"
         />
-        <h1 className="text-[20px] font-bold flex flex-col mt-2">
-          Arlene's{" "}
-          <span className="text-[14.5px] font-light -mt-1">Pool Services</span>
-        </h1>
       </Link>
       <nav
-        className={classNames("ease-in-out duration-300", {
+        className={classNames("ease-in-out duration-300 place-self-end", {
           "translate-y-1.5": isScrolled,
         })}
       >

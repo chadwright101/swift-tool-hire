@@ -4,20 +4,8 @@
     "url": "/"
   },
   {
-    "title": "About",
-    "url": "/#about"
-  },
-  {
     "title": "Services",
-    "url": "/#services"
-  },
-  {
-    "title": "Gallery",
-    "url": "/#gallery"
-  },
-  {
-    "title": "Team",
-    "url": "/#team"
+    "url": "/services"
   },
   {
     "title": "Contact",
