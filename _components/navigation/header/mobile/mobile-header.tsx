@@ -93,7 +93,7 @@ export function MobileHeader({ isScrolled }: HeaderProps) {
                   <Link
                     href={url}
                     onClick={() => setIsOpen(false)}
-                    className="text-[20px] text-white font-normal p-3 -m-3"
+                    className="text-[20px] text-black font-normal p-3 -m-3"
                   >
                     {title}
                   </Link>

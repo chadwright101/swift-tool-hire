@@ -1,0 +1,19 @@
+{
+  "heroSlider": [
+    "/images/20250529_095350.jpg",
+    "/images/20250529_095402.jpg",
+    "/images/20250529_095436.jpg",
+    "/images/swift-tool-hire-2.jpeg"
+  ],
+  "gallerySlider": [
+    "/images/20250529_095339.jpg",
+    "/images/20250529_095402.jpg",
+    "/images/20250529_095416.jpg",
+    "/images/swift-tool-hire-3.jpeg",
+    "/images/swift-tool-hire-9.jpeg"
+  ],
+  "contact": {
+    "email": "info@swifttoolhire.co.za",
+    "phone": "+27 83 225 5994"
+  }
+}
