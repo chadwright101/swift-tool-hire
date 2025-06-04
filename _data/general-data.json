@@ -1,5 +1,6 @@
 {
   "heroSlider": [
+    "/images/swift-tool-hire-12.jpeg",
     "/images/20250529_095350.jpg",
     "/images/20250529_095402.jpg",
     "/images/20250529_095436.jpg",
@@ -11,6 +12,35 @@
     "/images/20250529_095416.jpg",
     "/images/swift-tool-hire-3.jpeg",
     "/images/swift-tool-hire-9.jpeg"
+  ],
+  "services": [
+    {
+      "heading": "Tool hire",
+      "images": [
+        "/images/swift-tool-hire-4.jpeg",
+        "/images/swift-tool-hire-5.jpeg",
+        "/images/swift-tool-hire-13.jpeg"
+      ]
+    },
+    {
+      "heading": "Tool repair",
+      "images": ["/images/20250529_095339.jpg", ""]
+    },
+    {
+      "heading": "Scaffolding",
+      "images": [
+        "/images/20250529_095402.jpg",
+        "/images/swift-tool-hire-7.jpeg"
+      ]
+    },
+    {
+      "heading": "Generators",
+      "images": ["/images/swift-tool-hire-10.jpeg", ""]
+    },
+    {
+      "heading": "Core drilling",
+      "images": ["/images/core-drilling.jpeg", ""]
+    }
   ],
   "contact": {
     "email": "info@swifttoolhire.co.za",
