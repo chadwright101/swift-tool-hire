@@ -25,7 +25,7 @@ const ServicesComponent = () => {
               <div
                 className={classNames("grid gap-5", {
                   "min-[600px]:grid-cols-2": images.length > 1,
-                  "min-[600px]:grid-cols-3": images.length > 2,
+                  "min-[1000px]:grid-cols-3": images.length > 2,
                 })}
               >
                 {images.map((image, index) => (
@@ -38,7 +38,7 @@ const ServicesComponent = () => {
                     className={classNames(
                       "h-[220px] object-cover object-center w-full min-[600px]:h-[200px]",
                       {
-                        "hidden min-[600px]:hidden": index >= 2,
+                        "hidden min-[1000px]:block": index >= 2,
                       }
                     )}
                   />
@@ -48,7 +48,7 @@ const ServicesComponent = () => {
             {index !== services.length - 1 && (
               <hr
                 key={`${index}-line`}
-                className="text-[#231f20]/25 h-px mt-12 mx-auto w-3/5 desktop:hidden"
+                className="text-[#231f20]/25 h-px mt-12 mx-auto w-3/5 tablet:w-full desktop:hidden"
               />
             )}
           </li>

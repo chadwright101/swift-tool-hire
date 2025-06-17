@@ -37,7 +37,7 @@ export function DesktopFooter() {
             <Link
               href="https://thewrightdesigns.co.za"
               aria-label="The Wright Designs"
-              className="text-[14px] font-light"
+              className="text-[14px] font-light text-link-blue"
               target="_blank"
             >
               The Wright Designs
@@ -53,7 +53,7 @@ export function DesktopFooter() {
           © Swift Tool Hire |
           <Link
             href="/"
-            className="text-[14px] font-light"
+            className="text-[14px] font-light text-link-blue"
             style={{ fontVariant: "normal" }}
           >
             www.swifttoolhire.co.za

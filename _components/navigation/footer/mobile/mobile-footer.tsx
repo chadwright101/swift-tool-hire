@@ -13,7 +13,7 @@ export function MobileFooter() {
         </h4>
         <Link
           href="/"
-          className="text-[14px] p-2 -m-2 text-linkBlue font-light"
+          className="text-[14px] p-2 -m-2 text-link-blue font-light"
         >
           www.swifttoolhire.co.za
         </Link>
@@ -31,7 +31,7 @@ export function MobileFooter() {
         <Link
           href="https://thewrightdesigns.co.za"
           aria-label="The Wright Designs"
-          className="text-[14px] p-2 -m-2 font-light"
+          className="text-[14px] text-link-blue p-2 -m-2 font-light"
           target="_blank"
         >
           The Wright Designs
