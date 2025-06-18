@@ -33,6 +33,7 @@ const AboutUsComponent = () => {
           href="/#contact"
           ariaLabel="Get in touch"
           cssClasses="hidden min-[1000px]:block"
+          colorGreen
         >
           Get In Touch
         </ButtonLink>
@@ -41,6 +42,7 @@ const AboutUsComponent = () => {
         href="/#contact"
         ariaLabel="Get in touch"
         cssClasses="min-[1000px]:hidden"
+        colorGreen
       >
         Get In Touch
       </ButtonLink>

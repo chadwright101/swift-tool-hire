@@ -38,7 +38,7 @@ const ShowPhoneNumber = ({ buttonClasses, linkClasses }: showContactProps) => {
       <Link
         href={`tel:${showPhone}`}
         className={classNames(
-          "py-3 text-left px-2 -my-3 -mx-2 text-paragraph text-linkBlue tablet:hover:opacity-80 tablet:p-0 tablet:m-0",
+          "py-3 text-left px-2 -my-3 -mx-2 text-paragraph text-link-blue tablet:hover:opacity-80 tablet:p-0 tablet:m-0",
           linkClasses
         )}
       >

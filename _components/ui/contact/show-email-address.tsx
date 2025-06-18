@@ -41,7 +41,7 @@ const ShowEmailAddress = ({ buttonClasses, linkClasses }: showContactProps) => {
       <Link
         href={`mailto:${showEmail}`}
         className={classNames(
-          "py-3 text-left px-2 -my-3 text-paragraph text-linkBlue -mx-2 desktop:hover:opacity-80 desktop:p-0 desktop:m-0",
+          "py-3 text-left px-2 -my-3 text-paragraph text-link-blue -mx-2 desktop:hover:opacity-80 desktop:p-0 desktop:m-0",
           linkClasses
         )}
       >
