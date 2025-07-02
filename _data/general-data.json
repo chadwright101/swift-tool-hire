@@ -24,7 +24,7 @@
     },
     {
       "heading": "Tool repair",
-      "images": ["/images/20250529_095339.jpg", ""]
+      "images": ["/images/20250529_095339.jpg", "/images/20250702_134042.jpg"]
     },
     {
       "heading": "Scaffolding",
@@ -35,15 +35,18 @@
     },
     {
       "heading": "Generators",
-      "images": ["/images/swift-tool-hire-10.jpeg", ""]
+      "images": [
+        "/images/swift-tool-hire-10.jpeg",
+        "/images/20250702_133745.jpg"
+      ]
     },
     {
       "heading": "Core drilling",
-      "images": ["/images/core-drilling.jpeg", ""]
+      "images": ["/images/core-drilling.jpeg", "/images/20250702_133823.jpg"]
     }
   ],
   "contact": {
-    "email": "info@swifttoolhire.co.za",
+    "email": "swifttoolhire@gmail.com",
     "phone": "+27 83 225 5994",
     "address": "Rietvlei rd, 8C Bitou Business Park, N2, Plettenberg Bay, 6600"
   }
